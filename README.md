@@ -19,7 +19,7 @@ Depending on your plaform, your user snippets file is located here:
 **What it does:** creates a Norminette-approved boilerplate to comment a function. No more excuses not to comment your code :eyes:<br>
 **Prefixes to use it:** `new_comment` or `nc`
 
-![image](https://user-images.githubusercontent.com/66511903/105177152-31591400-5b1e-11eb-9355-278d70607447.png)
+![image](https://user-images.githubusercontent.com/66511903/105178528-08398300-5b20-11eb-82ec-6a8d78791aa7.png)
 <br>
 
 ### main 
