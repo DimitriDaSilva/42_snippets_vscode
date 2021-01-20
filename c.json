@@ -1,0 +1,57 @@
+{
+	"42_new_comment": {
+		"prefix": ["new_comment", "nc"],
+		"body": [
+			"",
+			"/*",
+			"** ${1:what_it_does_in_80_chars}",
+			"** @param:\t- [${2:type}] ${3:param_value}",
+			"**\t\t\t- [${4:type}] ${5:param_value}",
+			"** @return:\t[${6:type}] ${7:return_value}",
+			"** Line-by-line comments:",
+			"** @${8:line}-${9:line}\t$10",
+			"*/",
+			""
+		],
+		"description": "42_new_comment"
+	},
+	"include_custom": {
+		"prefix": ["include_custom", "ic"],
+		"body": [
+			"#include \"${TM_FILENAME/c$/h/g}\"",
+			"",
+		],
+		"description": "include_custom"
+	},
+	"include_libft": {
+		"prefix": ["include_libft", "il"],
+		"body": [
+			"#include \"libft.h\"",
+			"",
+		],
+		"description": "include_libft"
+	},
+	"main": {
+		"prefix": ["main", "int main"],
+		"body": [
+			"int\tmain(int argc, char *argv[])",
+			"{",
+			"\t(void)argc;",
+			"\t(void)argv;",
+			"",
+			"\tprintf(\"%$1\\n\", ${TM_FILENAME_BASE}($2));",
+			"",
+			"\treturn (0);",
+			"}"
+		],
+		"description": "main"
+	},
+	"printf": {
+		"prefix": ["printf", "custom_printf"],
+		"body": [
+			"printf(\"%$1\\n\", ${TM_FILENAME_BASE}($2));",
+			"",
+		],
+		"description": "printf"
+	}
+}

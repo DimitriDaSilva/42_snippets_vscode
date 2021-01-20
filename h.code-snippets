@@ -1,0 +1,13 @@
+{
+	"42_new_header_file": {
+	"prefix": ["new_header_file", "nhf"],
+	"body": [
+		"#ifndef ${TM_FILENAME/(^|[-.])([^-.]+)/${1:+_}${2:/upcase}/g}",
+		"# define ${TM_FILENAME/(^|[-.])([^-.]+)/${1:+_}${2:/upcase}/g}",
+		"",
+		"",
+		"#endif"
+	],
+	"description": "42_new_header_file"
+	}
+}
