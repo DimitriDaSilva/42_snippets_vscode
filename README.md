@@ -7,10 +7,14 @@ I had a bit of fun creating custom snippets to improve my workflow at 42 :nerd_f
 
 You'll simply need to copy the snippet files in your computer. Yes, that's about it. :ok_hand:
 
-Depending on your plaform, your user snippets file is located here:
+Depending on your OS, your user snippets are located here:
 - **Windows**: `%APPDATA%\Code\User\snippets`
 - **Mac**: `$HOME/Library/Application Support/Code/User/snippets`
 - **Linux**: `$HOME/.config/Code/User/snippets`
+
+To quickly copy these sweet snippets, execute the upload command for your OS:
+- **Mac**: `sh upload_mac.sh`
+- **Linux**: `sh upload_linux.sh`
 
 ## Snippets for .c files
  
