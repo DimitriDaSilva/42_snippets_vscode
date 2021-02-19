@@ -10,7 +10,7 @@ You'll simply need to copy the snippet files in your computer. Yes, that's about
 Depending on your plaform, your user snippets file is located here:
 - **Windows**: `%APPDATA%\Code\User\snippets`
 - **Mac**: `$HOME/Library/Application Support/Code/User/snippets`
-- **Linus**: `$HOME/.config/Code/User/snippets`
+- **Linux**: `$HOME/.config/Code/User/snippets`
 
 ## Snippets for .c files
  
