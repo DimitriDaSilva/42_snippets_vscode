@@ -4,9 +4,10 @@
 	"body": [
 		"#ifndef ${TM_FILENAME/(^|[-.])([^-.]+)/${1:+_}${2:/upcase}/g}",
 		"# define ${TM_FILENAME/(^|[-.])([^-.]+)/${1:+_}${2:/upcase}/g}",
+		"$1",
 		"",
+		"#endif",
 		"",
-		"#endif"
 	],
 	"description": "42_new_header_file"
 	}
