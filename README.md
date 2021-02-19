@@ -34,11 +34,15 @@ To quickly copy these sweet snippets, execute the upload command for your OS:
 ![image](https://user-images.githubusercontent.com/66511903/105178068-7762a780-5b1f-11eb-8cc3-4b2132845b6a.png)
 <br>
 
-### includes_custom 
+### includes_custom
 
 **What it does:** adds an include with the same header file name as your current file (e.g. in ft_test.c: `#include "ft_test.h"`)<br>
 **Prefixes to use it:** `include_custom` or `ic`
 
+### includes_libft
+
+**What it does:** simply adds `#include "libft.h`<br>
+**Prefixes to use it:** `include_libft` or `il`
 
 ## Resources
 
