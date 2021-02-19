@@ -12,6 +12,8 @@ Depending on your OS, your user snippets are located here:
 - **Mac**: `$HOME/Library/Application Support/Code/User/snippets`
 - **Linux**: `$HOME/.config/Code/User/snippets`
 
+**WARNING :warning:**: if you already have custom snippets for .c files or for .h files, executing the commands below **will** overwrite them. So you'll have to copy them manually.
+
 To quickly copy these sweet snippets, execute the upload command for your OS:
 - **Mac**: `sh upload_mac.sh`
 - **Linux**: `sh upload_linux.sh`
