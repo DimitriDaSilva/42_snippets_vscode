@@ -34,6 +34,30 @@ To quickly copy these sweet snippets, execute the upload command for your OS:
 ![image](https://user-images.githubusercontent.com/66511903/105178068-7762a780-5b1f-11eb-8cc3-4b2132845b6a.png)
 <br>
 
+### printf_w_var_name
+
+**What it does:** creates a printf statement with the variable name you have on your clipboard. You just have to input its type and you are all set to find your bug :bug:<br>
+**Prefixes to use it:** `printf_w_var_name`
+
+![image](https://user-images.githubusercontent.com/66511903/108497635-acd7ed80-72a3-11eb-9ee3-cbb91a5e9918.png)
+<br>
+
+### printf_w_func_name
+
+**What it does:** creates a printf statement with the name of your file (e.g. in ft_itoa.c see below)<br>
+**Prefixes to use it:** `printf_w_func_name`
+
+![image](https://user-images.githubusercontent.com/66511903/108498348-a72ed780-72a4-11eb-8b05-b4e8b49deed4.png)
+<br>
+
+
+### printf_wo_func_name
+
+**What it does:** creates a simple boiler-plate printf statement<br>
+**Prefixes to use it:** `printf_wo_func_name`
+![image](https://user-images.githubusercontent.com/66511903/108498685-23c1b600-72a5-11eb-9ee2-c85c46704a07.png)
+<br>
+
 ### includes_custom
 
 **What it does:** adds an include with the same header file name as your current file (e.g. in ft_test.c: `#include "ft_test.h"`)<br>
@@ -43,6 +67,16 @@ To quickly copy these sweet snippets, execute the upload command for your OS:
 
 **What it does:** simply adds `#include "libft.h`<br>
 **Prefixes to use it:** `include_libft` or `il`
+
+## Snippets for .h files
+ 
+### 42_new_header_file
+
+**What it does:** creates the boiler-plate `ifndef define endif` based on the name of your file<br>
+**Prefixes to use it:** `new_header_file` or `nhf`
+
+![image](https://user-images.githubusercontent.com/66511903/108499317-03dec200-72a6-11eb-9ddc-26e90b8592a4.png)
+<br>
 
 ## Resources
 
