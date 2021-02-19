@@ -36,7 +36,7 @@ Depending on your plaform, your user snippets file is located here:
 **Prefixes to use it:** `include_custom` or `ic`
 
 
-## Ressources
+## Resources
 
 If you want to tweak these snippets to your liking or even create brand new ones, here are ressources to help you! 
 
