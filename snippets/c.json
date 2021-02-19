@@ -13,7 +13,7 @@
 			"*/",
 			""
 		],
-		"description": "creates a Norminette-approved boilerplate to comment a function"
+		"description": "Creates a Norminette-approved boilerplate to comment a function"
 	},
 	"main": {
 		"prefix": ["int main"],
@@ -29,28 +29,28 @@
 			"",
 			"}"
 		],
-		"description": "creates a boilerplate main"
+		"description": "Creates a boilerplate main"
 	},
 	"printf_w_func_name": {
 		"prefix": ["printf_w_func_name"],
 		"body": [
 			"printf(\"${1:Value name}: \\\"%$2\\\"\\n\", ${TM_FILENAME_BASE}($3));",
 		],
-		"description": "printf"
+		"description": "Creates a printf statement with the name of your file"
 	},
 	"printf_wo_func_name": {
 		"prefix": ["printf_wo_func_name"],
 		"body": [
 			"printf(\"${1:var_name}: \\\"%$2\\\"\\n\", ${3: var_name});",
 		],
-		"description": "printf"
+		"description": "Creates a simple boiler-plate printf statement"
 	},
 	"printf_w_var_name": {
 		"prefix": ["printf_w_var_name"],
 		"body": [
 			"printf(\"${CLIPBOARD/(^[a-z])/${1:/upcase}/g}: \\\"%$1\\\"\\n\", ${CLIPBOARD});",
 		],
-		"description": "printf"
+		"description": "Creates a printf statement with the variable name you have on your clipboard. You just have to input its type and you are all set to find your bug"
 	},
 	"printf_here": {
 		"prefix": ["printf_here"],
@@ -64,13 +64,13 @@
 		"body": [
 			"#include \"${TM_FILENAME/c$/h/g}\"",
 		],
-		"description": "include_custom"
+		"description": "Adds an include with the same header file name as your current file (e.g. in ft_test.c: #include \"ft_test.h\""
 	},
 	"include_libft": {
 		"prefix": ["include_libft", "il"],
 		"body": [
 			"#include \"libft.h\"",
 		],
-		"description": "include_libft"
+		"description": "Simply adds `#include \"libft.h\""
 	},
 }

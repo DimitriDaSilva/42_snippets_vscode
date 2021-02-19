@@ -9,6 +9,6 @@
 		"#endif",
 		"",
 	],
-	"description": "42_new_header_file"
+	"description": "Creates the boiler-plate \"ifndef define endif\" needed for a header file"
 	}
 }
